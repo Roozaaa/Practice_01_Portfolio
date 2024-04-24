@@ -10,6 +10,7 @@
     color: #FD6E0A;
 }
 
+/* styles for primary and secondory btn */
 .btn-primary {
     border-radius: 0.3125rem;
     background: #FD6E0A;
@@ -84,7 +85,7 @@ nav>ul>li>button {
 
 }
 
-/* Styles for header */
+/* Header section started */
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png);
@@ -141,6 +142,7 @@ main {
     margin: 0 auto;
 }
 
+/* About Section started */
 .about {
     padding: 130px;
     border-radius: 0.625rem;
@@ -158,14 +160,13 @@ main {
 }
 
 .section-description {
-    width: 51.6875rem;
-    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
     text-align: center;
     color: #757575;
     padding-bottom: 1.5rem;
+    padding-bottom: 3.15rem;
 }
 
 .details-container {
@@ -187,3 +188,164 @@ main {
     font-style: normal;
     font-weight: 700;
 }
+
+/* About Section ends */
+
+/* Work Section started */
+.work {
+    margin: 130px 0;
+    /* padding: 30px 150px; */
+}
+
+.skills-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.skill {
+    padding: 30px;
+    gap: 1.5rem;
+    width: 16.6875rem;
+    height: 23.5625rem;
+    flex-shrink: 4;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill>img {
+    padding-left: 1.06rem;
+}
+
+.skill-title {
+    color: #181818;
+    padding-top: 1.87rem;
+    padding-left: 1.06rem;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    padding: 1.25rem 1.06rem 1.8rem;
+}
+
+/* Work Section ends */
+
+/* Resume section started */
+.resume {
+    margin: 130px 0px 0px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1.8rem;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 7.06rem;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 0.65rem;
+}
+
+.resume-item-institue {
+    color: #757575;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1.25rem;
+}
+
+.resume-item-description {
+    width: 31.9375rem;
+    color: #757575;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    padding-bottom: 1.87rem;
+}
+
+.download_cv {
+    text-align: center;
+    padding-top: 3.13rem;
+}
+
+/* Resume section ended */
+
+/* Footer section started */
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding-top: 8.12rem;
+    padding-left: 14.38rem;
+    padding-right: 14.38rem;
+    padding-bottom: 8.12rem;
+    margin-top: 100px;
+}
+
+.footer-section-title {
+    color: #181818;
+    text-align: left;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-section-description {
+    color: #474747;
+    padding-top: 1.27rem;
+    padding-bottom: 1.88rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-align: left;
+}
+
+.footer-item {
+    width: 50%;
+}
+.socials a{
+    padding-right: 1.3rem;
+}
+.contact-form {
+    position: relative;
+    padding-top: 1.75rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Footer Section ends*/
