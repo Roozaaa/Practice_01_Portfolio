@@ -214,7 +214,7 @@ main {
 }
 
 .skill>img {
-    padding-left: .06rem;
+    padding-left: 1.06rem;
 }
 
 .skill-title {
@@ -293,13 +293,22 @@ main {
 /* Footer section started */
 footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding-top: 8.12rem;
     padding-left: 14.38rem;
     padding-right: 14.38rem;
     padding-bottom: 8.12rem;
-
     margin-top: 100px;
+}
+
+.footer-section-title {
+    color: #181818;
+    text-align: left;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .footer-section-description {
@@ -312,3 +321,31 @@ footer {
     line-height: 1.75rem;
     text-align: left;
 }
+
+.footer-item {
+    width: 50%;
+}
+.socials a{
+    padding-right: 1.3rem;
+}
+.contact-form {
+    position: relative;
+    padding-top: 1.75rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Footer Section ends*/
