@@ -1,49 +1,135 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 0.3125rem;
     background: #FD6E0A;
     color: #FFF;
     border: 0;
     font-size: 1.25rem;
     font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
+    padding: 1.12rem 2.19rem 1.19rem 2.25rem;
+    margin-right: 1.87rem;
 }
+
+.btn-secondary {
+    border-radius: 0.3125rem;
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    flex-shrink: 0;
+    padding: 1.12rem 2.19rem 1.19rem 2.25rem;
+}
+.btn-primary > svg{
+    padding-right: 10px;
+    position: relative;
+    top: 2.8px;
+}
+.btn-secondary > svg{
+    padding-right: 10px;
+    position: relative;
+    top: 2.8px;
+}
+
 /* styles for nav */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
+    padding-top: 3.15rem;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav > ul > li {
+
+nav>ul>li {
     list-style: none;
     margin-right: 50px;
 }
-nav > ul > li > a{
+
+nav>ul>li>a {
     text-decoration: none;
     color: #474747;
 }
-nav > ul > li > button{
+
+nav>ul>li>button {
     width: 9.375rem;
     height: 4rem;
     flex-shrink: 0;
-    padding : 1.12rem 2.19rem 1.19rem 2.25rem;  
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 2.8125rem;
     font-weight: 800;
 
 }
+
+/* Styles for header */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 2.8125rem;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 5.3125rem;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner>.banner-content>p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.875rem;
+    width: 36.5625rem;
+    margin-bottom: 1.88rem;
+}
+
+/* Header section ends */
+
+/* Main styles started */
