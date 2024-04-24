@@ -88,9 +88,9 @@ nav>ul>li>button {
 /* Header section started */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/icons/Developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, center left;
 }
 
 .banner {
@@ -325,9 +325,11 @@ footer {
 .footer-item {
     width: 50%;
 }
-.socials a{
+
+.socials a {
     padding-right: 1.3rem;
 }
+
 .contact-form {
     position: relative;
     padding-top: 1.75rem;
