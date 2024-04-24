@@ -193,10 +193,10 @@ main {
 
 /* Work Section started */
 .work {
-    border-radius: 0.625rem;
     margin: 130px 0;
     /* padding: 30px 150px; */
 }
+
 .skills-container {
     display: flex;
     gap: 1.5rem;
@@ -231,5 +231,84 @@ main {
     line-height: 1.75rem;
     padding: 1.25rem 1.06rem 1.8rem;
 }
+
 /* Work Section ends */
 
+/* Resume section started */
+.resume {
+    margin: 130px 0px 0px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1.8rem;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 7.06rem;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 0.65rem;
+}
+
+.resume-item-institue {
+    color: #757575;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1.25rem;
+}
+
+.resume-item-description {
+    width: 31.9375rem;
+    color: #757575;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    padding-bottom: 1.87rem;
+}
+
+.download_cv {
+    text-align: center;
+    padding-top: 3.13rem;
+}
+
+/* Resume section ended */
+
+/* Footer section started */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding-top: 8.12rem;
+    padding-left: 14.38rem;
+    padding-right: 14.38rem;
+    padding-bottom: 8.12rem;
+
+    margin-top: 100px;
+}
+
+.footer-section-description {
+    color: #474747;
+    padding-top: 1.27rem;
+    padding-bottom: 1.88rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-align: left;
+}
